@@ -42,3 +42,97 @@ body{
 .about-me{
     flex: 1;
 }
+/* part3 - skills ==================================================================================== */
+.progress-left , .progress-right{
+    flex: 1;
+}
+.progress-right{
+    margin-left: 40px;
+}
+.prog-con{
+    width: 100%;
+    height: 18px;
+    border-radius: 3px;
+    background-color: rgb(212, 212, 212);
+}
+.prog-level1{
+    width: 0;
+    transition: 1s;
+    opacity: 0;
+    height: 18px;
+    border-radius: 3px;
+    background-color: rgb(53, 53, 255);
+}
+.prog-level2{
+    width: 0;
+    transition: 1s;
+    opacity: 0;
+    height: 18px;
+    border-radius: 3px;
+    background-color: rgb(53, 53, 255);
+}
+.prog-level3{
+    width: 0;
+    transition: 1s;
+    opacity: 0;
+    height: 18px;
+    border-radius: 3px;
+    background-color: rgb(53, 53, 255);
+}
+
+.prog-level4{
+    width: 0;
+    transition: 1s;
+    opacity: 0;
+    height: 18px;
+    border-radius: 3px;
+    background-color: rgb(0, 163, 27);
+}
+.prog-level5{
+    width: 0;
+    transition: 1s;
+    opacity: 0;
+    height: 18px;
+    border-radius: 3px;
+    background-color: rgb(0, 163, 27);
+}
+.prog-level6{
+    width: 0;
+    transition: 1s;
+    opacity: 0;
+    height: 18px;
+    border-radius: 3px;
+    background-color: rgb(0, 163, 27);
+}
+.skill--{
+    margin-bottom: 25px;
+}
+.box-exp{
+    padding: 20px 35px;
+    border-radius: 7px;
+    border: 2px solid rgb(214, 214, 214);
+    border-left: 2px solid rgb(53, 53, 255);
+    margin-bottom: 20px;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+}
+.box-edu{
+    padding: 20px 35px;
+    border-radius: 7px;
+    border: 2px solid rgb(214, 214, 214);
+    border-left: 2px solid rgb(0, 163, 27);
+    margin-bottom: 20px;
+    background-color: white;
+    position: relative;
+}
+.job-exp{
+    color: rgb(53, 53, 255);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.job-edu{
+    color: rgb(0, 163, 27);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
