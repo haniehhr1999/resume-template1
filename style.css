@@ -179,3 +179,57 @@ body{
     height: 2px;
     display: inline-block;
 }
+/* part4 && part5 - experience & education ===================================================== */
+.location{
+    font-weight: bold;
+    color: rgb(159, 159, 159);
+}
+.date{
+    color: rgb(176, 176, 176);
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.deu-gp , .exp-gp{
+    border: none;
+    border-left: 2px solid rgb(214, 214, 214);
+    padding: 18px 35px ;
+}
+
+/* part6 - contact ============================================================================= */
+h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.down-right{
+    flex: 1.5;
+    padding-left: 25px;
+}
+.down-left{
+    flex: 2.5;
+}
+.inp-mass{
+    padding-bottom: 40px;
+    width: 100%;
+    width: calc(100% - 10px);
+    /* margin-top: 20px; */
+}
+input{
+    width: 280px;
+    /* height: 40px; */
+    border-radius: 5px;
+    border: 2px solid rgb(220, 220, 220);
+    margin-bottom: 15px;
+    background-color: rgb(249, 249, 249);
+    padding: 7px 15px;
+    /* outline: 2px solid rgb(107, 156, 255); */
+}
+.send{
+    border-radius: 500px;
+    padding: 7px 20px;
+}
+
+
+
+.skills , .experience , .about , .pic-human , .education ,.contact{
+    padding: 48px;
+}
