@@ -7,3 +7,30 @@ body{
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.337);
     border-radius: 10px;
 }
+/* part1 ============================================================================================ */
+.pic-human {
+    background-color: rgb(107, 156, 255);
+    border-radius: 10px 10px 0 0;
+}
+.pic-human .photo{
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: -70px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.732);
+}
+.pic-human .fname-lname{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.btn-gp button{
+    border-radius: 50px;
+    padding: 7px 20px;
+    transition: 0.5s;
+    margin-right: 20px;
+}
+.btn-gp button:hover{
+    transform: translateY(5px);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.426);
+}
