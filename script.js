@@ -25,4 +25,11 @@ window.addEventListener('scroll' , function(){
     }
 })
 
+var inputs = document.querySelectorAll('input')
+inputs.forEach(element => {
+    element.addEventListener('click' , function(){
+        element.style.outlineColor = '#6B9CFF'
+    })
+});
+
 AOS.init();
